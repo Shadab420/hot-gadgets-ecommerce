@@ -1,0 +1,144 @@
+.container{
+    margin-bottom: 50px;
+}
+
+.container a{
+    text-decoration: none;
+    color: orange;
+}
+
+/* ******************************************************************************** */
+
+/* navbar */
+.nav-item{
+    transition: 1s all ease;
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    background-color: rgb(255, 209, 109);
+}
+
+
+/* ******************************************************************************** */
+
+/* buy button styles */
+.btn-buy{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-buy:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px black;
+    
+}
+/* ******************************************************************************** */
+
+/* Carousel styles */
+.carousel-item .col-md-7{
+    padding: 60px;
+}
+.carousel-item p{
+    color: gray;
+    margin: 20px 0;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: orange;
+}
+
+.carousel-indicators li{
+    background-color: orange;
+    width:2%;
+    height: 10px;
+<<<<<<< HEAD
+    border-radius: 100px;
+    border:none;
+=======
+    border-radius: 40%;
+>>>>>>> a7d533d99bee5adde119ef265440f2224dfec526
+    transition: 0.5s all ease;
+}
+
+.carousel-indicators .active{
+    width: 8%;
+}
+
+/* ******************************************************************************** */
+
+/* card styles */
+
+.card{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #8080804f;
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+    text-align: center;
+    padding: 50px 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(238, 231, 231);
+    color: gray;
+}
+.card-text{
+    color: gray;
+}
+
+.card-body .price{
+    margin-top: 40px;
+}
+
+.card-footer{
+    border-top: none;
+    background-color:transparent;
+}
+
+/* ******************************************************************************** */
+
+/* categories */
+
+.categories{
+    min-height: 500px;
+}
+
+.categories h3{
+    text-align: center;
+}
+
+.categories h3::after{
+    content:"";
+    background-image: linear-gradient(to right, rgb(243, 201, 86), orange 50%);
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.categories .category-row{
+    margin-top: 60px;
+}
+
+/* ******************************************************************************** */
+
+/* footer styles */
+
+footer{
+    text-align: center;
+}
+
